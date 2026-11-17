@@ -25,7 +25,7 @@ It works together with the obvpm H3 timeline nodes, which provide the `/obvpm/h3
 - **Collector (Vision)**: fill the character cards from vision-model outputs (up to 16 inputs; sockets grow as you connect them).
 - **Generator (All-in-One Vision)**: pick a text encoder on the node, connect up to 16 images, and get finished prompts plus labeled outputs (formatted brief, cards JSON, image descriptions, status, and one output per card field).
 
-The system prompts used by the vision and writer steps are in `nodes/character_sheet/*.txt` and can be edited.
+The system prompts used by the vision and writer steps are in `nodes/*.txt` and can be edited.
 
 ## Install
 
@@ -40,8 +40,7 @@ Restart ComfyUI. No extra Python packages are needed.
 
 ```
 __init__.py              registers every node and the web folder
-nodes/clip_populator/    Auto Clip Populator (node + server routes)
-nodes/character_sheet/   Character Sheet nodes and their system prompts
+nodes/                   all node code and the Character Sheet system prompts
 web/                     front-end extensions
 ```
 
