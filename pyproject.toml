@@ -1,0 +1,17 @@
+[project]
+name = "comfyui-avfx-nodes"
+description = "Audio, video and audio-reactive visual effects nodes for ComfyUI: auto clip populator for timeline workflows and character sheet prompt builders."
+version = "1.0.0"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/AVFX-Devs/ComfyUI-AVFX-Nodes"
+"Bug Tracker" = "https://github.com/AVFX-Devs/ComfyUI-AVFX-Nodes/issues"
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI AVFX Nodes"
+Icon = ""
+includes = []
